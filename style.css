@@ -51,11 +51,11 @@ html {
     background-color:rgb(225, 209, 240);
   }
   
-  @media screen and (min-width: 576px) {
+  @media screen and (max-width: 991px) {
     img {
       float: center;
-      width:  200px;
-      height: 200px;
+      width:  150px;
+      height: 150px;
       object-fit: cover;
       position: relative;
     }
@@ -64,8 +64,8 @@ html {
   @media screen and (min-width: 992px) {
     img {
       float: center;
-      width:  400px;
-      height: 400px;
+      width:  300px;
+      height: 300px;
       object-fit: cover;
       position: relative;
     }
